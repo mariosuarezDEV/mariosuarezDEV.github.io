@@ -35,6 +35,8 @@
     }
     .parrafo{
         margin-left: 0rem;
+        width: 80%;
+        line-height: 1.2;
     }
     
     .articulo a{
