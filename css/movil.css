@@ -1,0 +1,108 @@
+/* Diseño para telefonos */
+@media screen and (max-width:981px) {
+    .nombre{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-size: 1.7rem;
+    }
+    .perfil{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .menu{
+        display: none;
+    }
+    .encabezado{
+        justify-content: center;
+    }
+    .contenido{
+        flex-direction: column;
+    }
+    .articulo{
+        margin-left: 1.5rem;
+        max-width: 100%;
+        border-radius:2rem 2rem 0rem 0rem;
+        background-color: #212121;
+        color: #F6F6F6;
+        display: flex;
+        flex-direction: column;
+        margin-right: 1.5rem;
+    }
+
+    /* Quitar margenes */
+    .title{
+        margin-left: 0rem;
+    }
+    .parrafo{
+        margin-left: 0rem;
+    }
+    
+    .articulo a{
+        margin-left: 0rem;
+        padding: .7rem 2.5rem;
+    }
+    .alternative{
+        display: block;
+    }
+
+    /* Centrar */
+    .articulo{
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Banner */
+    .banner{
+        flex-direction: column;
+    }
+    .designBanner{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0rem;
+    }
+    .designBanner img{
+        width:11rem;
+    }
+    .designBanner span{
+        max-width: 100%;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-bottom: 1.4rem;
+    }
+    .txtBanner{ 
+        font-size: 2rem;
+        margin-left: 0rem; 
+    }
+    .subTitle{
+        display: none;
+    }
+
+    /* Servicios */
+    .servicios{
+        margin-left: 1.5rem;
+        color: #303030;
+        display: flex;
+        flex-direction: column;
+        margin-right: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    .listServices{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .listServices span{
+        text-align: center;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    
+    .listServices span img{
+        width: 10rem;
+    }
+    .listServices span p{
+        font-size: 1.4rem;
+    }
+}
